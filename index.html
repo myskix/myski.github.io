@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Web Myski</title>
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom Link CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offsets="90">
+    <!-- Navbar Section -->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Myskix</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <!-- <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                  </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar Section Exit -->
+
+    <!-- Banner Section -->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 order-lg-1 order-2 banner-content">
+            <h2 class="text-uppercase position-relative">Hello</h2>
+            <h1 class="text-uppercase">I am Muhammad Rizki</h1>
+            <h5 class="text-uppercase">Students | Junior Dev | UI/UX Design</h5>
+            <div class="mt-5">
+              <a class="main-btn primary-btn" href="https://wa.link/k4vczl" target="_blank">Hire Me</a>
+              <a class="main-btn secondary-btn ms-4" href="cv-ats-mrizki.pdf" download>Get CV</a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-lg-5 order-1">
+            <div class="top-right-img">
+              <img src="images/profilx.jpg" class="img-fluid glowing-img" width="400px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Section Exit -->
+
+    <!-- About Section -->
+    <section id="about" class="about-wrapper">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <img src="images/about-us.webp" class="img-fluid" alt="about us" />
+          </div>
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <h3>
+              lets <br />introduce about <br />
+              myself
+            </h3>
+            <p>
+              Outstanding Informatics Engineering student from Universitas Muhammadiyah Riau, graduate of Software graduate of SMK Muhammadiyah 2 Pekanbaru. Has a high spirit to learn and continue develop himself, especially in the field of
+              programming and web development. This expertise is supported with real experience as the first winner in various UI/UX design competitions at the university and national levels. national level.
+            </p>
+            <p>
+              Armed with internship experience in IT system and network support, as well as skillful skills in HTML, CSS, PHP, MySQL, basic Python, to AI concepts and data visualization. Committed to contributing significantly to technology
+              development and looking for opportunities. to grow as a programmer.
+            </p>
+            <a href="cv-ats-mrizki.pdf" download class="main-btn primary-btn mt-4">Download CV</a>
+          </div>
+        </div>
+        <div class="skills-section mt-1">
+          <h3 class="text-white mb-3">Skills</h3>
+          <div class="skills-tabs mb-4">
+            <button class="skills-tab active" data-target="tech">Tech Stack</button>
+            <button class="skills-tab" data-target="tools">Tools</button>
+          </div>
+
+          <!-- Tech Stack: TAMPIL default -->
+          <div class="skills-grid" id="tech">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="images/htmll.png" alt="CSS" />
+              </div>
+              <div class="skill-text">
+                <strong>HTML</strong>
+                <span class="skill-level">Advanced</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="images/css.png" alt="CSS" />
+              </div>
+              <div class="skill-text">
+                <strong>CSS</strong>
+                <span class="skill-level">Advanced</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="images/bootstrapp.png" alt="CSS" />
+              </div>
+              <div class="skill-text">
+                <strong>Bootstrap</strong>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="images/php.png" alt="CSS" />
+              </div>
+              <div class="skill-text">
+                <strong>PHP</strong>
+                <span class="skill-level">Beginner</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="images/pythonn.png" alt="CSS" />
+              </div>
+              <div class="skill-text">
+                <strong>Python</strong>
+                <span class="skill-level">Advanced</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools: DISIMPAN default -->
+          <div class="skills-grid d-none" id="tools">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="images/gittt.png" alt="CSS" />
+              </div>
+              <div class="skill-text">
+                <strong>Git</strong>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="images/githubb.png" alt="CSS" />
+              </div>
+              <div class="skill-text">
+                <strong>Github</strong>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <img src="images/mysqll.png" alt="CSS" />
+              </div>
+              <div class="skill-text">
+                <strong>MySQL</strong>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section Exit -->
+
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-12 text-center mb-5">
+            <h2>SERVICE OFFERS</h2>
+            <p>
+              here are some of the skills I can offer <br class="d-none d-lg-block" />
+              will continue to grow like a ship crashing through the waves.
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card service-card">
+              <img src="./images/services-img/mouse.webp" alt="Web Development Icon" />
+              <h5>Web Development</h5>
+              <p>Membangun website statis maupun dinamis secara responsif dan fungsional.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card service-card">
+              <img src="./images/services-img/ui-ux.webp" alt="UI/UX Design Icon" />
+              <h5>UI/UX Design</h5>
+              <p>Menciptakan desain antarmuka pengguna yang intuitif dan pengalaman pengguna yang optimal.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card service-card">
+              <img src="/images/services-img/seo.webp" alt="Data Visualization Icon" />
+              <h5>Data Visualization</h5>
+              <p>Mengolah dan menyajikan data menjadi insight yang mudah dipahami.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Services section exit -->
+
+    <!-- portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col">
+            <h2>Past Project Experience</h2>
+            <p>Explore the projects I've worked on so far</p>
+          </div>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Project 1 -->
+          <div class="portfolio-card">
+            <img src="images/dashboard.png" alt="Dashboard" class="portfolio-img" />
+            <div class="portfolio-body">
+              <h5 class="portfolio-title">Admin Dashboard</h5>
+              <p class="portfolio-desc">A modern dashboard with dark/light mode built for admin performance monitoring and analytics.</p>
+              <p class="portfolio-tech">HTML, Bootstrap, MySQL</p>
+              <div class="portfolio-links">
+                <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" title="Source Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="portfolio-card">
+            <img src="images/ui-uxx.png" alt="UI/UX Design" class="portfolio-img" />
+            <div class="portfolio-body">
+              <h5 class="portfolio-title">Mobile App UI/UX</h5>
+              <p class="portfolio-desc">Designed a responsive and accessible mobile app interface using Figma, focused on intuitive user experience.</p>
+              <p class="portfolio-tech">Figma, UI/UX</p>
+              <div class="portfolio-links">
+                <a href="#" title="Live Preview"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" title="Prototype"><i class="fab fa-figma"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="portfolio-card">
+            <img src="images/iottt.png" alt="IoT App" class="portfolio-img" />
+            <div class="portfolio-body">
+              <h5 class="portfolio-title">Smart Home IoT App</h5>
+              <p class="portfolio-desc">IoT-based application for controlling smart appliances with data visualization and remote monitoring.</p>
+              <p class="portfolio-tech">C, Wokwi, Esp32</p>
+              <div class="portfolio-links">
+                <a href="#" title="Demo Video"><i class="fas fa-play"></i></a>
+                <a href="#" title="GitHub Repo"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="portfolio-card">
+            <img src="images/web-person.png" alt="IoT App" class="portfolio-img" />
+            <div class="portfolio-body">
+              <h5 class="portfolio-title">Webite Personal</h5>
+              <p class="portfolio-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quam distinctio necessitatibus dignissimos dolor quisquam cum quis architecto ipsam quia.</p>
+              <p class="portfolio-tech">HTML, CSS, Bootstrap</p>
+              <div class="portfolio-links">
+                <a href="#" title="Demo Video"><i class="fas fa-play"></i></a>
+                <a href="#" title="GitHub Repo"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio Section exit -->
+
+    <!-- blog Section -->
+    <!-- <section id="blog" class="blog_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-5">
+            <h2>BLOG</h2>
+            <p>
+              Is give may shall likeness made yielding spirit a itself togeth created after sea <br class="d-none d-lg-block" />
+              is in beast beginning signs open god you're gathering ithe
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 p-0">
+              <img decoding="async" src="./images/blog/blog.webp" />
+              <div class="blog_details">
+                <div class="blog_text text-center">
+                  <h5 class="text-white mb-0">Social Life</h5>
+                  <div class="border_line"></div>
+                  <p class="text-white">Enjoy your social life together</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 p-0">
+              <img decoding="async" src="./images/blog/blog1.webp" />
+              <div class="blog_details">
+                <div class="blog_text text-center">
+                  <h5 class="text-white mb-0">POLITICS</h5>
+                  <div class="border_line"></div>
+                  <p class="text-white">Enjoy your social life together</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 p-0">
+              <img decoding="async" src="./images/blog/blog2.webp" />
+              <div class="blog_details">
+                <div class="blog_text text-center">
+                  <h5 class="text-white mb-0">FOOD</h5>
+                  <div class="border_line"></div>
+                  <p class="text-white">Enjoy your social life together</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 p-0">
+              <img decoding="async" src="./images/blog/blog.webp" />
+              <div class="blog_details">
+                <div class="blog_text text-center">
+                  <h5 class="text-white mb-0">Social Life</h5>
+                  <div class="border_line"></div>
+                  <p class="text-white">Enjoy your social life together</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- blog Section exit -->
+
+    <!-- Footer section -->
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-1 mt-md-0">
+      <div class="quote-section text-center my-4 px-3">
+        <blockquote class="quote text-white fst-italic">
+          "Alone we can do so little, together we can do so much."
+          <br /><span class="author">— Helen Keller</span>
+        </blockquote>
+      </div>
+
+      <div class="container mt-4">
+        <div class="row justify-content-center text-center">
+          <div class="col-12">
+            <h5 class="text-white mb-3">Connect with me</h5>
+            <ul class="list-unstyled d-flex justify-content-center align-items-center social-icons mb-4">
+              <li class="mx-3">
+                <a href="https://www.linkedin.com/in/muhammad-rizki-8487ba30b/" target="_blank" title="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="mx-3">
+                <a href="https://www.instagram.com/myskix/" target="_blank" title="instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="mx-3">
+                <a href="https://github.com/myskix" target="_blank" title="github">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="mx-3">
+                <a href="https://wa.link/k4vczl" target="_blank" title="whatsapp">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+            <hr style="border-color: rgba(255, 255, 255, 0.2); width: 60%; margin: 2rem auto" />
+
+            <p class="footer-text text-white mb-0">
+              &copy; 2022 All rights reserved | Made with <i class="far fa-heart"></i> by
+              <a href="#" class="text-decoration-none" style="color: var(--secondary-color)">Myski</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Boostrap 5 JS CDN Links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom Link JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
